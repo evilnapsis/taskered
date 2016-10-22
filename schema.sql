@@ -1,6 +1,6 @@
 create database taskered;
 use taskered;
-
+/*
 create table user(
 	id int not null auto_increment primary key,
 	name varchar(50),
@@ -13,7 +13,8 @@ create table user(
 	kind int default 1,
 	created_at datetime
 );
-
+insert into user (name,username,password,created_at) value ("Administrator","admin",sha1(md5("admin")),NOW());
+*/
 
 create table item(
 	id int not null auto_increment primary key,
@@ -29,4 +30,3 @@ create table item(
 	created_at datetime
 );
 
-insert into user (name,username,password,created_at) value ("Administrator","admin",sha1(md5("admin")),NOW());

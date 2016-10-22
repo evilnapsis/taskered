@@ -1,2 +1,2 @@
-# lb-min
-LegoBox Min version minimizada del Micro Framework PHP Legobox
+# Taskered
+Micro sistema de gestion de proyectos y tareas
